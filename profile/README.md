@@ -1,31 +1,44 @@
-# The Windstorm Institute
+# Windstorm Institute
 
-**Independent research at the intersection of information theory, molecular biology, and artificial intelligence.**
+**Theoretical and experimental research on information-theoretic constraints in self-replicating and serial decoding systems.**
 
-We study the mathematical constraints governing information processing in serial decoding systems — from ribosomes to transformers. Our work bridges rate-distortion theory, molecular biology, and machine learning to uncover universal principles.
+Led by Grant Lavell Whitmer III
 
-**Website:** [windstorminstitute.org](https://windstorminstitute.org)
+---
 
-### Publications
+## The FONS Constraint / Throughput Basin Series
 
-| Paper | Title | Status | Links |
-|-------|-------|--------|-------|
-| 00 | [The Fons Constraint](https://doi.org/10.5281/zenodo.19274048) | Published | [Zenodo](https://doi.org/10.5281/zenodo.19274048) · [GitHub](https://github.com/Windstorm-Institute/fons-constraint) · [Article](https://windstorminstitute.org/articles/fons-constraint.html) |
-| 01 | [The Receiver-Limited Floor](https://doi.org/10.5281/zenodo.19323194) | Published | [Zenodo](https://doi.org/10.5281/zenodo.19323194) · [GitHub](https://github.com/Windstorm-Institute/receiver-limited-floor) · [Article](https://windstorminstitute.org/articles/receiver-limited-floor.html) |
-| 02 | [The Throughput Basin](https://doi.org/10.5281/zenodo.19323423) | Published | [Zenodo](https://doi.org/10.5281/zenodo.19323423) · [GitHub](https://github.com/Windstorm-Institute/throughput-basin) · [Article](https://windstorminstitute.org/articles/throughput-basin.html) |
-| 03 | [The Serial Decoding Basin τ](https://doi.org/10.5281/zenodo.19432911) | Published | [Zenodo](https://doi.org/10.5281/zenodo.19432911) · [GitHub](https://github.com/Windstorm-Institute/serial-decoding-basin) · [Article](https://windstorminstitute.org/articles/serial-decoding-basin.html) |
-| 04 | [The Dissipative Decoder](https://doi.org/10.5281/zenodo.19433048) | Published | [Zenodo](https://doi.org/10.5281/zenodo.19433048) · [GitHub](https://github.com/Windstorm-Institute/dissipative-decoder) · [Article](https://windstorminstitute.org/articles/dissipative-decoder.html) |
-| 05 | [The Inherited Constraint](https://doi.org/10.5281/zenodo.19322973) | Published | [Zenodo](https://doi.org/10.5281/zenodo.19322973) · [GitHub](https://github.com/Windstorm-Institute/inherited-constraint) · [Article](https://windstorminstitute.org/articles/inherited-constraint.html) |
+| # | Paper | Key Finding | Code & Data |
+|---|-------|-------------|-------------|
+| 1 | [Fons Constraint](./fons-constraint) | 64-codon alphabet derivation | [→ Labs](https://github.com/Windstorm-Labs/fons-constraint) |
+| 2 | [Receiver-Limited Floor](./receiver-limited-floor) | Vocab-independent BPT (p=0.643) | [→ Labs](https://github.com/Windstorm-Labs/receiver-limited-floor) ✅ |
+| 3 | [Throughput Basin](./throughput-basin) | 31-system convergence to [3,6] bits | [→ Labs](https://github.com/Windstorm-Labs/throughput-basin) |
+| 4 | [Dissipative Decoder](./dissipative-decoder) | Regime A/B, φ_ribosome ≈ 1.02 | [→ Labs](https://github.com/Windstorm-Labs/dissipative-decoder) |
+| 5 | [Serial Decoding Basin τ](./serial-decoding-basin) | τ = 4.16 ± 0.19 bits | [→ Labs](https://github.com/Windstorm-Labs/serial-decoding-basin) |
+| 6 | [Inherited Constraint](./inherited-constraint) | AI ~4.4 bits from biology | [→ Labs](https://github.com/Windstorm-Labs/inherited-constraint) |
+| 7 | AGI Extensions (in progress) | Data vs architecture test | [→ Labs](https://github.com/Windstorm-Labs/agi-extensions) 🚧 |
 
-### All Papers
+✅ = Complete with data  
+🚧 = In progress
 
-**Zenodo Community:** [zenodo.org/communities/windstorm-institute](https://zenodo.org/communities/windstorm-institute)
+---
 
-### Key Results
+## About
 
-- **4.390 bits** — Zero-free-parameter prediction of ribosome throughput
-- **1,826 models** — Largest known tokenizer-information survey
-- **p = 0.576** — Vocabulary size does not predict compression quality
-- **K ≈ 20** — Evolution independently discovers the genetic code's alphabet size
+The Windstorm Institute investigates whether fundamental limits constrain information processing across substrates — from molecular biology to artificial intelligence. 
 
-**Experimental arm:** [@Windstorm-Labs](https://github.com/Windstorm-Labs)
+**Website:** https://windstorminstitute.org  
+**Zenodo Community:** https://zenodo.org/communities/windstorm-institute/
+
+---
+
+## Repository Structure
+
+Each paper repository contains:
+- `paper.pdf` — Full academic paper (archived on Zenodo)
+- `article.html` — Accessible web version
+- Links to experimental code in [Windstorm-Labs](https://github.com/Windstorm-Labs)
+
+---
+
+*All papers CC BY 4.0*
