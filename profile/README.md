@@ -18,7 +18,7 @@ Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 | 6 | [The Inherited Constraint](https://github.com/Windstorm-Institute/inherited-constraint) | AI inherits ~4.4 BPT from biological language | [10.5281/zenodo.19432911](https://doi.org/10.5281/zenodo.19432911) | [Labs](https://github.com/Windstorm-Labs/inherited-constraint) |
 | 7 | [The Throughput Basin Origin](https://github.com/Windstorm-Institute/throughput-basin-origin) | At 92M, on Markov synthetic data, achieved BPT tracks training-corpus token entropy. **Published with internal adversarial review.** | [10.5281/zenodo.19498583](https://doi.org/10.5281/zenodo.19498583) · [PDF](https://github.com/Windstorm-Institute/throughput-basin-origin/blob/main/paper/Paper7-Throughput-Basin-Origin-v1.2.pdf) | [Labs](https://github.com/Windstorm-Labs/agi-extensions) |
 
-> **Note on Paper 7:** the canonical repository is `Windstorm-Institute/throughput-basin-origin`, not the Institute mirror. The paper is published together with its full internal adversarial review, which identifies four blocking items (see Paper 7.1 tracking issue) that constrain how strongly the headline can be read. The defensible claim is narrower than the original; read the [adversarial review](https://github.com/Windstorm-Institute/throughput-basin-origin/blob/main/review/adversarial_review.md) and the [companion article](https://windstorminstitute.org/articles/throughput-basin-origin.html) as a unit.
+> **Note on Paper 7:** Published with its full internal adversarial review, which identifies items that constrain how strongly the headline can be read. Read the [adversarial review](https://github.com/Windstorm-Institute/throughput-basin-origin/blob/main/review/adversarial_review.md) and the [companion article](https://windstorminstitute.org/articles/throughput-basin-origin.html) as a unit.
 
 > **Note on Papers 1–4 retroactively:** the τ = 4.16 figure is in bits per BPE token. The same tokenizer-unit confound the adversarial review identifies for Paper 7's SYN-8 result applies to the τ measurement as well. A bits-per-source-symbol re-measurement is now in scope for Paper 7.1. See the [callout in the τ article](https://windstorminstitute.org/articles/serial-decoding-basin.html).
 
@@ -37,7 +37,7 @@ The Windstorm Institute investigates whether fundamental limits constrain inform
 |-----|---------|
 | [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper repositories |
 | [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, GPU benchmarks, reproducibility  |
-| [sneakyfree](https://github.com/sneakyfree) | PI's working repos &mdash; canonical Paper 7 (`agi-extensions`), website source (`windstorminstitute.org`) |
+| [sneakyfree](https://github.com/sneakyfree) | PI's account &mdash; website source (`windstorminstitute.org`). All papers now live under Windstorm-Institute. |
 
 ---
 
