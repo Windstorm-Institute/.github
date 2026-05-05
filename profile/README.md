@@ -1,12 +1,14 @@
 # Windstorm Institute
 
-**Theoretical and experimental research on information-theoretic constraints in self-replicating and serial decoding systems.**
+**Theoretical and experimental research on the mathematical constraints &mdash; information-theoretic and thermodynamic &mdash; that govern what physical systems can do, across substrates.**
 
 Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
+> Two research programs. Twelve papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
+
 ---
 
-## The FONS Constraint / Throughput Basin Series
+## Track 1 &mdash; The Throughput Basin (Papers 1&ndash;9, complete arc)
 
 | # | Paper | Key Finding | DOI | Code Mirror |
 |---|-------|-------------|-----|-------------|
@@ -26,9 +28,35 @@ Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
 ---
 
+## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;12, line of inquiry active)
+
+Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Three papers in the field as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), a broad interpretive synthesis (Paper 11), and a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12).
+
+| # | Paper | Key Finding | DOI | Code Mirror |
+|---|-------|-------------|-----|-------------|
+| 10 | [The Phonon Bound](https://github.com/Windstorm-Institute/phonon-extraction-bound) | BEC analog gravity: η ≤ 1/(1 + T/T<sub>res</sub>) ⇒ predicted **17% efficiency suppression** at T/T<sub>res</sub> = 0.2; 5-test QuTiP Lindblad validation, 1 clean scope limit | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) | [Labs](https://github.com/Windstorm-Labs/phonon-extraction-bound) |
+| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) | The universe attracts because the books want to balance. Newton, Bekenstein–Hawking, equivalence principle, and Milgrom *a*<sub>0</sub> as facets of one principle. Genzel five-case test rules out evolving *a*<sub>0</sub> at >0.10 dex. | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) | [Labs](https://github.com/Windstorm-Labs/gravitational-entropy-escrow) |
+| 12 | [C8 Clarification Note](https://github.com/Windstorm-Institute/c8-clarification-note) | Multi-LLM-proposed entropy 4-current "C8" reduces to saturated Bekenstein 1981; methodology case study on multi-LLM adversarial review, dimensional analysis traps, and reality-checks against published values. Companion to Paper 11. | [10.5281/zenodo.20041992](https://doi.org/10.5281/zenodo.20041992) | [Labs](https://github.com/Windstorm-Labs/c8-clarification-note) |
+
+> **Track 2 scope note.** This line opens with a falsifiable lab prediction and a broad framing; the cluster-cores difficulty (Paper 11 §8.2) is a real open problem, and the order-unity coefficient α ≈ 1.34 (Paper 11 §8.4.3) awaits a matched-asymptotic Rindler–de Sitter derivation. Paper 12 documents one candidate covariant extension that didn't pan out, and the AI-dialogue methodology lessons that came out of working it through.
+
+---
+
+## Discussion & engagement
+
+Different conversation types belong on different surfaces:
+
+- **Discuss the *ideas* in a paper** → comments at the bottom of the [website article](https://windstorminstitute.org) for that paper. Powered by GitHub Discussions on the website repo; sign in with GitHub to comment.
+- **Typo, citation issue, or paper-content correction?** → Open an Issue on the relevant Institute repo above (each paper has a dedicated repo).
+- **Bug in the analysis code, or a reproduction question?** → Open an Issue on the corresponding Labs repo above.
+- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 12 Labs repos as of May 2026).
+- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 24 paper repos.
+
+---
+
 ## About
 
-The Windstorm Institute investigates whether fundamental limits constrain information processing across substrates &mdash; from molecular biology to artificial intelligence.
+The Windstorm Institute investigates whether fundamental limits constrain information processing and energy/entropy bookkeeping across substrates &mdash; from molecular biology to artificial intelligence to analog gravity systems.
 
 - **Website:** [windstorminstitute.org](https://windstorminstitute.org)
 - **Zenodo Community:** [zenodo.org/communities/windstorm-institute](https://zenodo.org/communities/windstorm-institute/)
@@ -37,9 +65,9 @@ The Windstorm Institute investigates whether fundamental limits constrain inform
 
 | Org | Purpose |
 |-----|---------|
-| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper repositories |
-| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, GPU benchmarks, reproducibility  |
-| [sneakyfree](https://github.com/sneakyfree) | PI's account &mdash; website source (`windstorminstitute.org`). All papers now live under Windstorm-Institute. |
+| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (12 repos) |
+| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (12 repos, mirrored 1:1 with Institute) |
+| [sneakyfree/windstorminstitute.org](https://github.com/sneakyfree/windstorminstitute.org) | Website source. Discussions on this repo back the article-comment widgets via Giscus. |
 
 ---
 
