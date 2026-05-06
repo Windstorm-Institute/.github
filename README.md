@@ -1,29 +1,23 @@
-# The Windstorm Institute
+# `.github` — organization configuration repository
 
-**Independent research at the intersection of information theory, molecular biology, and artificial intelligence.**
+This repository hosts organization-level GitHub configuration for **The Windstorm Institute**. It is *not* a paper repository.
 
-We study the mathematical constraints governing information processing in serial decoding systems — from ribosomes to transformers. Our work bridges rate-distortion theory, molecular biology, and machine learning to uncover universal principles.
+The canonical organization page (with the full 13-paper index across both research tracks, key findings, code mirrors, and discussion guidance) is rendered from [`profile/README.md`](profile/README.md) at:
 
-### Publications
+- **[github.com/Windstorm-Institute](https://github.com/Windstorm-Institute)** ← the page you probably want
 
-| Paper | Title | Status |
-|-------|-------|--------|
-| 00 | [The Fons Constraint](https://doi.org/10.5281/zenodo.19274048) | Published |
-| 01 | The Receiver-Limited Floor | In preparation |
-| 02 | The Throughput Basin | In preparation |
-| 03 | The Serial Decoding Basin τ | In preparation |
+## Where everything lives
 
-### Key Results
+| Surface | URL |
+|---|---|
+| Website (research) | [windstorminstitute.org](https://windstorminstitute.org) |
+| Website (engineering) | [windstormlabs.com](https://windstormlabs.com) |
+| Organization profile (research arm) | [github.com/Windstorm-Institute](https://github.com/Windstorm-Institute) |
+| Organization profile (engineering arm) | [github.com/Windstorm-Labs](https://github.com/Windstorm-Labs) |
+| Zenodo community | [zenodo.org/communities/windstorm-institute](https://zenodo.org/communities/windstorm-institute/) |
 
-- **4.390 bits** — Zero-free-parameter prediction of ribosome throughput from rate-distortion theory
-- **1,826 models** — Largest known tokenizer-information survey (RTX 5090)
-- **p = 0.576** — Vocabulary size does not predict compression quality
-- **K ≈ 20** — Evolutionary simulations independently discover the genetic code's alphabet size
+The 13 papers live in individual repositories under [Windstorm-Institute](https://github.com/Windstorm-Institute) (manuscripts + scaffolds) and [Windstorm-Labs](https://github.com/Windstorm-Labs) (code + reproducibility).
 
-### Experimental Arm
+---
 
-Code, data, and experiment infrastructure live at [@Windstorm-Labs](https://github.com/Windstorm-Labs).
-
-### Links
-
-🌐 [windstorminstitute.org](https://windstorminstitute.org) · 📄 [Zenodo](https://doi.org/10.5281/zenodo.19274048)
+*If you landed here from a search, the [organization profile page](https://github.com/Windstorm-Institute) is the entry point you're looking for.*
