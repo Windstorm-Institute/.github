@@ -67,7 +67,7 @@ The Windstorm Institute investigates whether fundamental limits constrain inform
 |-----|---------|
 | [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (12 repos) |
 | [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (12 repos, mirrored 1:1 with Institute) |
-| [sneakyfree/windstorminstitute.org](https://github.com/sneakyfree/windstorminstitute.org) | Website source. Discussions on this repo back the article-comment widgets via Giscus. |
+| [sneakyfree/windstorm-institute-site](https://github.com/sneakyfree/windstorm-institute-site) | Website source. Discussions on this repo back the article-comment widgets via Giscus. |
 
 ---
 
