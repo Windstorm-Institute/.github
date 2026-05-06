@@ -4,7 +4,7 @@
 
 Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
-> Two research programs. Twelve papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
+> Two research programs. Thirteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
 
 ---
 
@@ -28,15 +28,16 @@ Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
 ---
 
-## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;12, line of inquiry active)
+## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;13, line of inquiry active)
 
-Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Three papers in the field as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), a broad interpretive synthesis (Paper 11), and a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12).
+Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Four papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), a broad interpretive synthesis (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), and a direct lattice-QFT test that falsifies the literal bipartition-entropy reading of the framework's static identification while showing partial survival of the modular-Hamiltonian reading in 1+1D (Paper 13).
 
 | # | Paper | Key Finding | DOI | Code Mirror |
 |---|-------|-------------|-----|-------------|
 | 10 | [The Phonon Bound](https://github.com/Windstorm-Institute/phonon-extraction-bound) | BEC analog gravity: η ≤ 1/(1 + T/T<sub>res</sub>) ⇒ predicted **17% efficiency suppression** at T/T<sub>res</sub> = 0.2; 5-test QuTiP Lindblad validation, 1 clean scope limit | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) | [Labs](https://github.com/Windstorm-Labs/phonon-extraction-bound) |
 | 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) | The universe attracts because the books want to balance. Newton, Bekenstein–Hawking, equivalence principle, and Milgrom *a*<sub>0</sub> as facets of one principle. Genzel five-case test rules out evolving *a*<sub>0</sub> at >0.10 dex. | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) | [Labs](https://github.com/Windstorm-Labs/gravitational-entropy-escrow) |
 | 12 | [C8 Clarification Note](https://github.com/Windstorm-Institute/c8-clarification-note) | Multi-LLM-proposed entropy 4-current "C8" reduces to saturated Bekenstein 1981; methodology case study on multi-LLM adversarial review, dimensional analysis traps, and reality-checks against published values. Companion to Paper 11. | [10.5281/zenodo.20041992](https://doi.org/10.5281/zenodo.20041992) | [Labs](https://github.com/Windstorm-Labs/c8-clarification-note) |
+| 13 | [Lattice QFT Test of the Static Escrow Postulate](https://github.com/Windstorm-Institute/lattice-qft-test) | Direct lattice-QFT test of the framework's load-bearing static identification *S*<sub>esc</sub> = \|*U*<sub>grav</sub>\|/*T*<sub>Unruh</sub>. Bipartition-entropy reading falsified in both 1+1D (R spans 10⁵⁶) and 3+1D (R<sub>Δ</sub> &lt; 10⁻³, MI decays as L⁻⁴). Modular-Hamiltonian reading partially survives in 1+1D in a small-d<sub>1</sub> window with prefactor ≈ 1/30; previously-published "L^{0.7}" sublinear fit corrected to a regime-dependent crossover. Companion 3+1D paper finds non-recovery of BW asymptote within resolvable d<sub>1</sub>. Horizon-limit recoveries (Bekenstein–Hawking via surface gravity) independent of these tests. Supplement to Paper 11. | [10.5281/zenodo.20043421](https://doi.org/10.5281/zenodo.20043421) | [Labs](https://github.com/Windstorm-Labs/lattice-qft-test) |
 
 > **Track 2 scope note.** This line opens with a falsifiable lab prediction and a broad framing; the cluster-cores difficulty (Paper 11 §8.2) is a real open problem, and the order-unity coefficient α ≈ 1.34 (Paper 11 §8.4.3) awaits a matched-asymptotic Rindler–de Sitter derivation. Paper 12 documents one candidate covariant extension that didn't pan out, and the AI-dialogue methodology lessons that came out of working it through.
 
@@ -50,7 +51,7 @@ Different conversation types belong on different surfaces:
 - **Typo, citation issue, or paper-content correction?** → Open an Issue on the relevant Institute repo above (each paper has a dedicated repo).
 - **Bug in the analysis code, or a reproduction question?** → Open an Issue on the corresponding Labs repo above.
 - **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 12 Labs repos as of May 2026).
-- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 24 paper repos.
+- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 26 paper repos.
 
 ---
 
@@ -65,8 +66,8 @@ The Windstorm Institute investigates whether fundamental limits constrain inform
 
 | Org | Purpose |
 |-----|---------|
-| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (12 repos) |
-| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (12 repos, mirrored 1:1 with Institute) |
+| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (13 repos) |
+| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (13 repos, mirrored 1:1 with Institute) |
 | [sneakyfree/windstorm-institute-site](https://github.com/sneakyfree/windstorm-institute-site) | Website source. Discussions on this repo back the article-comment widgets via Giscus. |
 
 ---
