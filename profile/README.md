@@ -4,7 +4,7 @@
 
 Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
-> Two research programs. Thirteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
+> Two research programs. Fourteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
 
 ---
 
@@ -30,7 +30,7 @@ Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
 ## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;13, line of inquiry active)
 
-Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Four papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), a broad interpretive synthesis (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), and a direct lattice-QFT test that falsifies the literal bipartition-entropy reading of the framework's static identification while showing partial survival of the modular-Hamiltonian reading in 1+1D (Paper 13).
+Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Five papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), the framework paper introducing the static escrow postulate (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), a direct lattice-QFT test of the framework's load-bearing identification (Paper 13), and a conceptual translation of four standard general-relativity results — gravitational time dilation, Tolman temperature law, Bekenstein–Hawking entropy formula, and Jacobson's (1995) thermodynamic derivation of Einstein's equations — into the escrow vocabulary (Paper 14).
 
 | # | Paper | Key Finding | DOI | Code Mirror |
 |---|-------|-------------|-----|-------------|
@@ -50,8 +50,8 @@ Different conversation types belong on different surfaces:
 - **Discuss the *ideas* in a paper** → comments at the bottom of the [website article](https://windstorminstitute.org) for that paper. Powered by GitHub Discussions on the website repo; sign in with GitHub to comment.
 - **Typo, citation issue, or paper-content correction?** → Open an Issue on the relevant Institute repo above (each paper has a dedicated repo).
 - **Bug in the analysis code, or a reproduction question?** → Open an Issue on the corresponding Labs repo above.
-- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 13 Labs repos as of May 2026).
-- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 26 paper repos.
+- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 14 Labs repos as of May 2026).
+- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 28 paper repos.
 
 ---
 
