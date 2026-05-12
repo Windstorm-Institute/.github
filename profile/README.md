@@ -4,7 +4,7 @@
 
 Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
-> Two research programs. Fourteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
+> Two research programs. Fifteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
 
 ---
 
@@ -51,8 +51,8 @@ Different conversation types belong on different surfaces:
 - **Discuss the *ideas* in a paper** → comments at the bottom of the [website article](https://windstorminstitute.org) for that paper. Powered by GitHub Discussions on the website repo; sign in with GitHub to comment.
 - **Typo, citation issue, or paper-content correction?** → Open an Issue on the relevant Institute repo above (each paper has a dedicated repo).
 - **Bug in the analysis code, or a reproduction question?** → Open an Issue on the corresponding Labs repo above.
-- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 14 Labs repos as of May 2026).
-- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 28 paper repos.
+- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 15 Labs repos as of May 2026).
+- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 30 paper repos.
 
 ---
 
