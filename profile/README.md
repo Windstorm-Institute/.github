@@ -4,7 +4,7 @@
 
 Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
-> Two research programs. Fifteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
+> Two research programs. Sixteen papers. Track 1 (complete arc): the throughput basin in serial decoders, from ribosomes to AI transformers. Track 2 (active line of inquiry): non-equilibrium entropic bounds in analog gravity systems.
 
 ---
 
@@ -28,9 +28,9 @@ Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
 ---
 
-## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;13, line of inquiry active)
+## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;16, line of inquiry active)
 
-Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Six papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), the framework paper introducing the static escrow postulate (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), a direct lattice-QFT test of the framework's load-bearing identification (Paper 13), and a conceptual translation of four standard general-relativity results — gravitational time dilation, Tolman temperature law, Bekenstein–Hawking entropy formula, and Jacobson's (1995) thermodynamic derivation of Einstein's equations — into the escrow vocabulary (Paper 14).
+Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Seven papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), the framework paper introducing the static escrow postulate (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), a direct lattice-QFT test of the framework's load-bearing identification (Paper 13), and a conceptual translation of four standard general-relativity results — gravitational time dilation, Tolman temperature law, Bekenstein–Hawking entropy formula, and Jacobson's (1995) thermodynamic derivation of Einstein's equations — into the escrow vocabulary (Paper 14).
 
 | # | Paper | Key Finding | DOI | Code Mirror |
 |---|-------|-------------|-----|-------------|
@@ -40,6 +40,7 @@ Track 2 applies the same Clausius-inequality / entropy-production lens that driv
 | 13 | [Lattice QFT Test of the Static Escrow Postulate](https://github.com/Windstorm-Institute/lattice-qft-test) | Direct lattice-QFT test of the framework's load-bearing static identification *S*<sub>esc</sub> = \|*U*<sub>grav</sub>\|/*T*<sub>Unruh</sub>. Bipartition-entropy reading falsified in both 1+1D (R spans 10⁵⁶) and 3+1D (R<sub>Δ</sub> &lt; 10⁻³, MI decays as L⁻⁴). Modular-Hamiltonian reading partially survives in 1+1D in a small-d<sub>1</sub> window with prefactor ≈ 1/30; previously-published "L^{0.7}" sublinear fit corrected to a regime-dependent crossover. Companion 3+1D paper finds non-recovery of BW asymptote within resolvable d<sub>1</sub>. Horizon-limit recoveries (Bekenstein–Hawking via surface gravity) independent of these tests. Supplement to Paper 11. | [10.5281/zenodo.20057538](https://doi.org/10.5281/zenodo.20057538) | [Labs](https://github.com/Windstorm-Labs/lattice-qft-test) |
 | 14 | [Spacetime as Escrow Bookkeeping](https://github.com/Windstorm-Institute/escrow-spacetime) *(5th in track; translation of standard GR results into the escrow vocabulary; companion to Paper 11)* | [10.5281/zenodo.20126091](https://doi.org/10.5281/zenodo.20126091) | [Labs](https://github.com/Windstorm-Labs/escrow-spacetime) |
 | 15 | [The 𝒩<sub>esc</sub> Recipe](https://github.com/Windstorm-Institute/nesc-recipe) | Formalizes the 𝒩<sub>esc</sub> notation from Paper 14 as a two-argument function 𝒩<sub>esc</sub>(*E*, *L*) ≡ 2π*EL*/(ℏ*c*) plus a regime-specific recipe extracting (*E*, *L*) from |*U*|/*T*. Observes that the same one-function recipe, applied across three qualitatively distinct settings — test mass in Schwarzschild, Bekenstein–Hawking via Smarr, and Casini's QFT bound in a Rindler wedge — evaluates to the Bekenstein-bound saturation form in each. Lattice verification at *N* ∈ [200, 1200]: boost-generator BW identification at 0.087% mean accuracy; Casini–BW inequality verified within max 5.4% saturation. Theorem 1 conditional on BW, Casini, and moment-positivity. Five pre-registered retractions. Continuation of Paper 14. | [10.5281/zenodo.20145106](https://doi.org/10.5281/zenodo.20145106) | [Labs](https://github.com/Windstorm-Labs/nesc-recipe) |
+| 16 | [The Compton Corollary](https://github.com/Windstorm-Institute/compton-corollary) | Bekenstein's bound at λ̄<sub>C</sub> gives universal *S*<sub>max</sub> = 2π *k*<sub>B</sub> (D ≤ *e*<sup>2π</sup> ≈ 535.49) for any massive elementary particle. Numerical coincidence: 2 dim(adj E<sub>8</sub>) = 496 sits at 92.6% / 98.8% (log₂) of *e*<sup>2π</sup>, with the Cartan classification terminating at E<sub>8</sub>. Uses 𝒩<sub>esc</sub> notation only; escrow recipe not invoked. Short empirical observation paper. | [10.5281/zenodo.20163451](https://doi.org/10.5281/zenodo.20163451) | [Labs](https://github.com/Windstorm-Labs/compton-corollary) |
 > **Track 2 scope note.** This line opens with a falsifiable lab prediction and a broad framing; the cluster-cores difficulty (Paper 11 §8.2) is a real open problem, and the order-unity coefficient α ≈ 1.34 (Paper 11 §8.4.3) awaits a matched-asymptotic Rindler–de Sitter derivation. Paper 12 documents one candidate covariant extension that didn't pan out, and the AI-dialogue methodology lessons that came out of working it through.
 
 ---
@@ -52,7 +53,7 @@ Different conversation types belong on different surfaces:
 - **Typo, citation issue, or paper-content correction?** → Open an Issue on the relevant Institute repo above (each paper has a dedicated repo).
 - **Bug in the analysis code, or a reproduction question?** → Open an Issue on the corresponding Labs repo above.
 - **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 15 Labs repos as of May 2026).
-- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 30 paper repos.
+- **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 32 paper repos.
 
 ---
 
@@ -67,8 +68,8 @@ The Windstorm Institute investigates whether fundamental limits constrain inform
 
 | Org | Purpose |
 |-----|---------|
-| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (13 repos) |
-| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (13 repos, mirrored 1:1 with Institute) |
+| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (15 repos) |
+| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (15 repos, mirrored 1:1 with Institute) |
 | [sneakyfree/windstorm-institute-site](https://github.com/sneakyfree/windstorm-institute-site) | Website source. Discussions on this repo back the article-comment widgets via Giscus. |
 
 ---
