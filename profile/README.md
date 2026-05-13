@@ -30,7 +30,7 @@ Led by Grant Lavell Whitmer III &middot; Fort Ann, NY
 
 ## Track 2 &mdash; Entropic Bounds in Analog Systems (Papers 10&ndash;16, line of inquiry active)
 
-Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Seven papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), the framework paper introducing the static escrow postulate (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), a direct lattice-QFT test of the framework's load-bearing identification (Paper 13), and a conceptual translation of four standard general-relativity results — gravitational time dilation, Tolman temperature law, Bekenstein–Hawking entropy formula, and Jacobson's (1995) thermodynamic derivation of Einstein's equations — into the escrow vocabulary (Paper 14).
+Track 2 applies the same Clausius-inequality / entropy-production lens that drives Track 1's thermodynamic argument to a different substrate &mdash; gravity-adjacent physical systems. Seven papers as of May 2026: a narrow falsifiable laboratory prediction (Paper 10), the framework paper introducing the static escrow postulate (Paper 11), a methodology case study on a candidate extension that turned out to be a 1981 result in disguise (Paper 12), a direct lattice-QFT test of the framework's load-bearing identification (Paper 13), a conceptual translation of four standard general-relativity results — gravitational time dilation, Tolman temperature law, Bekenstein–Hawking entropy formula, and Jacobson's (1995) thermodynamic derivation of Einstein's equations — into the escrow vocabulary (Paper 14), a formalization of the 𝒩<sub>esc</sub>(E, L) ≡ 2πEL/(ℏc) notation as a cross-regime function with lattice verification of the Rindler-wedge sector at 0.087% mean accuracy on Bisognano–Wichmann (Paper 15), and a short corollary observation recording the universal Compton-scale Hilbert-space ceiling D ≤ e<sup>2π</sup> ≈ 535.49 and its numerical coincidence with the exceptional Lie group sequence terminating at E<sub>8</sub> at 92.6% / 98.8% (log<sub>2</sub>) of the ceiling (Paper 16).
 
 | # | Paper | Key Finding | DOI | Code Mirror |
 |---|-------|-------------|-----|-------------|
@@ -68,8 +68,8 @@ The Windstorm Institute investigates whether fundamental limits constrain inform
 
 | Org | Purpose |
 |-----|---------|
-| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (15 repos) |
-| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (15 repos, mirrored 1:1 with Institute) |
+| [Windstorm-Institute](https://github.com/Windstorm-Institute) | Manuscripts, theory, paper publication repositories (16 repos) |
+| [Windstorm-Labs](https://github.com/Windstorm-Labs) | Experiment code, raw outputs, plots, reproducibility (16 repos, mirrored 1:1 with Institute) |
 | [sneakyfree/windstorm-institute-site](https://github.com/sneakyfree/windstorm-institute-site) | Website source. Discussions on this repo back the article-comment widgets via Giscus. |
 
 ---
