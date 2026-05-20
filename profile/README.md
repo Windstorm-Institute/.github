@@ -52,7 +52,7 @@ Different conversation types belong on different surfaces:
 - **Discuss the *ideas* in a paper** → comments at the bottom of the [website article](https://windstorminstitute.org) for that paper. Powered by GitHub Discussions on the website repo; sign in with GitHub to comment.
 - **Typo, citation issue, or paper-content correction?** → Open an Issue on the relevant Institute repo above (each paper has a dedicated repo).
 - **Bug in the analysis code, or a reproduction question?** → Open an Issue on the corresponding Labs repo above.
-- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 15 Labs repos as of May 2026).
+- **Q&A — version compatibility, hardware, generalization to other inputs?** → Start a Discussion on the Labs repo (Discussions are enabled on all 16 Labs repos as of May 2026).
 - **Watch the whole fleet at once.** Click "Watch" on the [Windstorm-Institute](https://github.com/Windstorm-Institute) and [Windstorm-Labs](https://github.com/Windstorm-Labs) org pages to get notifications across all 32 paper repos.
 
 ---
